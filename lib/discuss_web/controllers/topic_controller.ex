@@ -3,6 +3,6 @@ defmodule DiscussWeb.TopicController do
   alias Discuss.Topic
   def new(conn, params) do
     changeset = Topic.changeset(%Topic{}, %{})
-    render("new.html",conn)
+    render(conn,"new.html")
   end
 end

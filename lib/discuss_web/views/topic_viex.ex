@@ -1,6 +1,4 @@
-defmodule Discuss.TopicView do
+defmodule DiscussWeb.TopicView do
     use DiscussWeb, :view
-    def render("new.html",assigns) do
 
-    end
 end
